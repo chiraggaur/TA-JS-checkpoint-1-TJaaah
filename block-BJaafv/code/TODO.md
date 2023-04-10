@@ -11,10 +11,14 @@ function sum(a, b) {
   console.log(a + b);
 }
 ```
+<!-- return will only return when function is called in console or can be stored in variable , while console will directly print output in console only ones. -->
 
 2. If we store the returned value of both functions above in variable `first` and `second` what will be the value of `first` and `second`.
 
+<!-- first = return a+b , second = sum of two numbers. -->
+
 3. What will be the output when you call above `sum` function (first) with three parameter like `sum(12, 24, 35)`. Explain why?
+<!-- It will give error because there is no parameter available to store 3rd argument. -->
 
 4. Can you store the first `sum` function in a variable named `add`. If yes why? If no why?
 
