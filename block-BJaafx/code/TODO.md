@@ -1,4 +1,8 @@
 1. Using loops take 10 inputs from user and find the average of all the numbers.
+<!-- 
+    function average (n1,n2,n3,n4,n5,n6,n7,n8,n9,n10){
+         let Average = (n1+n2+n3+n4+n5+n6+n7+n8+n9+n10) / 10 ;
+    } average (); -->
 
 2. What will be the output of the code below
 
@@ -9,12 +13,44 @@ while (i < 3) {
   i++;
 }
 ```
+<!-- //output -->
+<!-- 0
+1
+2 -->
 
 3. Write a function named `getEvenSum` that accepts a parameter `max`. Return the sum of all even numbers. The value of max should default to 10.
 
+<!-- let sum = 0;
+function getEvenSum (max = 10) {
+   
+   for (let i = 1; i <= max; i++){
+        if (i%2 === 0){
+             sum += i;
+        }
+   }
+
+} getEvenSum(); -->
+
 4. Write a function named `getOddSum` that accepts a parameter `max`. Return the sum of all odd numbers. The value of max should default to 10.
+<!-- 
+let sum = 0;
+function getEvenSum (max = 10) {
+   
+   for (let i = 1; i <= max; i++){
+        if (i%2 !== 0){
+             sum += i;
+        }
+   }
+
+} getEvenSum(); -->
+
 
 5. Write a function named `getProductOfDigits` that accepts a parameter `num`. It returns the product of all the digits in the number.
+
+<!-- function getProductOfDigits (num) {
+     let length = num.Count();
+     let divisor = length 
+} -->
 
 - If the input value is less than 0 return `not a valid input`
 - For example if the input is `123` output should be `6`.
@@ -34,9 +70,9 @@ function check(num) {
   return num;
 }
 
-check(10); // output
-check(1); // output
-check(5); // output
+check(10); // output  //Bigger than 5 and 10 will be in return statement 
+check(1); // output   // Smaller than 5 and 10 will be in return statement 
+check(5); // output  // Noting only 10 will be in return statement
 ```
 
 7. What will be the output of the following code given below? Explain the reason?
